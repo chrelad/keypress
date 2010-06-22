@@ -1,0 +1,24 @@
+= Linux Typewriter
+
+If you want to make some kind of screencast that features keyboard typing sounds,
+this might come in handy. Get the script, run linux-typewriter.rb and pump up your volume.
+
+This is totally hacked-away, but it works for me. Your mileage may vary, though.
+
+== Requirements
+
+* Python
+* <code>python-xlib</code> (On Debian-based, install with <code>sudo apt-get install python-xlib)</code>
+* aplay command line player, but you really can dump in anything you want, see <code>keypress.py</code>
+
+== Stolen?
+
+Yes, this was adopted from Sayan "Riju" Chakrabarti (sayanriju).
+
+== What's changed?
+
+The first time I looked at the code, I couldn't really figure out what was going on. There was a senatra web server acting as a proxy that all the keypresses would go through which I didn't understand. Not to say that wasn't the correct approach, but it wasn't the approach I needed/wanted. I did some looking on threading and tried my best at getting each call to aplay working so that there wasn't a delay.
+
+== Can it play different sounds for different keys?
+
+The original one that sayanriju made could, and this one will eventually.
