@@ -1,9 +1,7 @@
 = Linux Typewriter
 
 If you want to make some kind of screencast that features keyboard typing sounds,
-this might come in handy. Get the script, run linux-typewriter.rb and pump up your volume.
-
-This is totally hacked-away, but it works for me. Your mileage may vary, though.
+this might come in handy. Get the script, run keypress.py and pump up your volume.
 
 == Requirements
 
