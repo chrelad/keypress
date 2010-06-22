@@ -11,9 +11,13 @@ This is totally hacked-away, but it works for me. Your mileage may vary, though.
 * <code>python-xlib</code> (On Debian-based, install with <code>sudo apt-get install python-xlib)</code>
 * aplay command line player, but you really can dump in anything you want, see <code>keypress.py</code>
 
-== Stolen?
+== Rip-off!!!
 
 Yes, this was adopted from Sayan "Riju" Chakrabarti (sayanriju).
+
+== Why didn't you just fork it?
+
+Good question, guess it just didn't occur to me :)
 
 == What's changed?
 
