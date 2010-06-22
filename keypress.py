@@ -39,6 +39,7 @@ def main():
 		keymap = disp.query_keymap() 
 		if keymap not in ignorelist: 
 			KeyPress().start()
+			time.sleep(0.08)
  
 if __name__ == '__main__': 
 	main() 
